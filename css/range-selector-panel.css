@@ -1,0 +1,51 @@
+.range_panel {
+  margin: 4px 0 20px 0;
+}
+.range_panel_row {
+  margin: 3px 0 3px 0;
+  background-color: #eee;/* $american-gray; */
+  padding: 3px;
+}
+.range_panel_row .add,
+.range_panel_row .remove,
+.range_panel_row input {
+  display: inline-block;
+  margin: 6px 8px;
+  cursor: pointer;
+}
+.range_panel_row input[type="range"] {
+  width: 200px;
+  position: relative;
+  top: 4px;
+}
+.range_panel_row input[type="text"] {
+  padding: 3px;
+  position: relative;
+  top: 1px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.range_panel_row .add, .range_panel_row .remove {
+  padding: 6px;
+  width: 36px;
+  text-shadow: -1px -1px 0px #999999;
+}
+.range_panel_row div.add {
+  font-size: 26px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.range_panel_row div.remove {
+  font-size: 18px;
+  padding: 6px 8px 6px 8px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.range_panel_row div.add:active, .range_panel_row div.remove:active {
+  position: relative;
+  top: 2px;
+  left: 1px;
+  box-shadow: 0 0 0;
+}
+.range_panel_row .weight {
+  width: 42px;
+  text-align: center;
+}
